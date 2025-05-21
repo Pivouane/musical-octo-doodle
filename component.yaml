@@ -1,0 +1,13 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: example-argocd-app
+  description: Application déployée avec ArgoCD
+  annotations:
+    argocd/app-name: example-app
+    argocd/instance-name: main
+    backstage.io/kubernetes-id: example-argocd-app
+spec:
+  type: service
+  lifecycle: production
+  owner: group:default/hexaglobe
