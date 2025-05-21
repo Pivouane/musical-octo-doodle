@@ -6,13 +6,3 @@ spec:
   type: url
   targets:
     - https://github.com/Pivouane/musical-octo-doodle/blob/main/group.yaml
----
-apiVersion: backstage.io/v1alpha1
-kind: Group
-metadata:
-  name: hexaglobe
-spec:
-  type: team
-  profile:
-    displayName: HexaGlobe
-  children: []
